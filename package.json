@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "AI-powered code analysis tool",
   "scripts": {
-    "install:client": "cd client && npm install",
-    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm ci",
+    "install:server": "cd server && npm ci",
     "build:client": "cd client && npm run build",
     "build": "npm run install:client && npm run install:server && npm run build:client",
     "start": "cd server && node index.js"
